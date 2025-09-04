@@ -1,12 +1,13 @@
 import { useState } from 'react'
-import './App.css'
+import Login from './Pages/Login'
+
 
 function App() {
 
 
   return (
     <>
-      <div className='h-[100vh] bg-amber-300'></div>
+      <Login />
     </>
   )
 }
